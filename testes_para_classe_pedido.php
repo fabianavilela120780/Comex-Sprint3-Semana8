@@ -1,8 +1,16 @@
 <?php
 
+namespace Fabianavilela120780\Comex\Tests;
+use Fabianavilela120780\Comex\Classes\Cliente;
+use Fabianavilela120780\Comex\Classes\Endereco;
+use Fabianavilela120780\Comex\Classes\Pagamento\Pix;
+use Fabianavilela120780\Comex\Classes\Pedido;
+use Fabianavilela120780\Comex\Classes\Produto;
+use PHPnit\Framework\TestCase;
 
-namespace Fabianavilela120780\Produto\Roupas\Meia;
-
+class PedidoTest extends TestCase
+    {
+        Public function testRetorna
 
 class pedido extends o
 {
