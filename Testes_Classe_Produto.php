@@ -1,5 +1,41 @@
 <?php
+namespace Fabiana120780\Comex\Tests;
+use PHPUnit\Framework\TestCase;
+class ProdutoTest extends Test Case;
 
+public function testRetornaNomeCorretamente()
+    }
+    $produto = new Produto ('Nome', 10, 10;);
+$this->assertEquals ('Nome', $produto->getNome());
+}
+
+public function testRetornaPrecoCorretamente()
+    
+    $produto = new Produto('Preco', 10, 10);
+$this->assertEquals(10, $produto->getPrecoCorretamente());
+}
+
+public function testRetornaQtdEstoque()
+    
+    $produto = new Produto('QtdEstoque', 10, 10);
+$this->assertEquals(10, $produto->getQtdEstoque());
+}
+public function testComprarQuantidadeNegativaJogaErroCerto() 
+    $produto = new Produto (1Nome', 10, 10);
+    $this->expectException(InvalidArgumentException: : class);
+    $produto->compra(100);
+    }
+    
+
+
+
+
+
+
+
+
+
+    
 use Fabiana120780\Produto\Roupas\meia\estoque;
 use Fabiana120780\Produto\Roupas\meia\categoria;
 use Fabiana120780\Produto\Roupas\codigo;
